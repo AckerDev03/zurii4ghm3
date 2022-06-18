@@ -33,12 +33,12 @@ a:hover {
 }
 
 .container {
-    width: 600px;
+   width: 620px;
     margin: 50px auto;
 
     display: grid;
-    grid-gap: 10px;
-    grid-template-rows: 200px 80px 120px;
+    grid-gap: 12px;
+    grid-template-rows: 200px 100px 130px;
     grid-template-columns: 300px 100px 200px;
 }
 
