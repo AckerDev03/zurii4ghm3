@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    color: #eeee;
+}
+
+nav {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.flex {
+    color: #359b99;
+    text-decoration: none;
+    font-stretch: semi-expanded;
+    text-transform: uppercase;
+}
+
+.grid {
+    color: #c93c11ee;
+    text-decoration: none;
+    font-stretch: semi-expanded;
+    text-transform: uppercase;
+
+}
+
+a:hover {
+    color: #171a1a;
+}
+
+main {
+    display: flex;
+    width: 55%;
+    margin: 70px auto 0;
+    border-radius: 8px;
+}
+
+section {
+    padding: 40px;
+}
+
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    margin-top: 20px;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-stretch: semi-condensed;
+}
+
+p {
+    font-family: 'Lexend Deca', serif;
+    font-size: 12px;
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+    line-height: 20px;
+}
+
+button {
+    padding: 12px 15px;
+    width: 120px;
+    border-radius: 40px;
+    border: none;
+}
+
+.sedan {
+    background-color: #e28525;
+    border-radius: 8px 0 0 8px;
+}
+
+.sedan button {
+    color: #e28525;
+}
+
+.sedan button:hover {
+    padding: 9px;
+    color: #ffff;
+    border: 2px solid #ffff;
+    background-color: #e28525;
+}
+
+.suvs {
+    background-color: #016972;
+}
+
+.suvs button {
+    color: #016972;
+}
+
+.suvs button:hover {
+    padding: 9px;
+    color: #ffff;
+    border: 2px solid #ffff;
+    background-color: #016972;
+}
+
+.luxury {
+    background-color: #00403f;
+    border-radius: 0 8px 8px 0;
+
+}
+
+.luxury button {
+    color: #00403f;
+}
+
+.luxury button:hover {
+    padding: 9px;
+    color: #ffff;
+    border: 2px solid #ffff;
+    background-color: #00403f;
+}
+
+@media screen and (max-width:375px) {
+    main {
+        flex-direction: column;
+    }
+}
