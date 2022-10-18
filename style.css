@@ -4,6 +4,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     color: #eeee;
+    line-height: 1.7;
 }
 
 nav {
